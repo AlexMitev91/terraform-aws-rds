@@ -8,7 +8,7 @@ variable "db_username" {
 
 variable "db_password" {
   description = "RDS root user password"
-  sensitive   = true
+#  sensitive   = true
 }
 
 variable "db_encrypted" {
